@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Reader App</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <header>
+      <h1>Card Reader App</h1>
+      <h2>Instructions</h2>
+      <p class="instructions">
+        1. Choose a card to remember, then click Start.
+      </p>
+      <p class="instructions">
+        2. Select the pile that contains your card. Repeat this step three times.
+      </p>
+      <p class="instructions">3. Your card will then be revealed like magic.</p>
+      <button class="startButton">Start Game</button>
+      <button class="changeCardsButton">Change Cards</button>
+    </header>
+    <main>
+      <h2 class="mainheader"></h2>
+      <div class="correctCardArea"></div>
+      <div class="allcards"></div>
+      <div class="piles">
+        <div class="pile1">
+          <div class="pile1cards"></div>
+          <button class="pile1button pileselection">Pile 1</button>
+        </div>
+        <div class="pile2">
+          <div class="pile2cards"></div>
+          <button class="pile2button pileselection">Pile 2</button>
+        </div>
+        <div class="pile3">
+          <div class="pile3cards"></div>
+          <button class="pile3button pileselection">Pile 3</button>
+        </div>
+      </div>
+      <div class="continue">
+        <button class="continueButton">Continue</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
